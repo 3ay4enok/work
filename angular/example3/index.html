@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Обмен данными между контроллерами в AngularJS</title>
+</head>
+<body>
+
+<div data-ng-controller="firstCntrl">
+    <input type="text" data-ng-model="myFactory.hello">
+</div>
+<div data-ng-controller="secondCntrl">
+    <input type="text" data-ng-model="myFactory.hello">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
