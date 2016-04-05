@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru" data-ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Определение метода в контроллере AngularJS</title>
+</head>
+<body>
+
+<div data-ng-controller="firstCntrl">
+    {{ hell }}
+    {{ myFunction() }}
+    <button data-ng-click="newHell('New button')">New button</button>
+    <button data-ng-click="newBar('New bar')">New bar</button>
+    {{myFactory.hello()}}
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
